@@ -1,0 +1,7 @@
+.mainSection {
+  min-height: 1346px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

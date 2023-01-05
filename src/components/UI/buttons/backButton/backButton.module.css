@@ -1,0 +1,16 @@
+.backButton {
+  display: flex;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: inherit;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+.backButton:hover {
+  color: var(--color-light-text);
+}
+.backButton svg {
+  height: 1.5rem;
+}

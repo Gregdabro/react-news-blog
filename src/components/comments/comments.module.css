@@ -1,0 +1,53 @@
+.commentList {
+  padding-top: 20px;
+  margin-top: 80px;
+  border-top: 2px solid var(--color-dark-gray);
+  position: relative;
+}
+.commentList .title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  font-size: 13px;
+  font-weight: 500;
+  top: -25px;
+  left: 0;
+  padding: 0 10px;
+  background-color: #39393c;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+.commentList .buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.commentListItem {
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.content {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #626262;
+  text-transform: none;
+}
+
+.content:first-letter {
+  text-transform: uppercase;
+}
+.signature {
+  text-transform: lowercase;
+}
+
+.signature span {
+  color: var(--color-light-text);
+  margin-right: 5px;
+}

@@ -1,0 +1,13 @@
+.error {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.error span {
+  margin-right: 5px;
+  color: #646363ff;
+}

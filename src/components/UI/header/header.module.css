@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--color-blue);
+  padding: 2rem 0;
+}
+.header a {
+  cursor: pointer;
+}
+.logo {
+  fill: var(--color-white);
+}
+.logo:hover {
+  fill: var(--color-orange);
+}

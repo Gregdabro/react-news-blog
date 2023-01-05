@@ -1,0 +1,38 @@
+.nav {
+  margin-top: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pageItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-dark-gray);
+  background-color: var(--color-white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pageLink {
+  color: inherit;
+}
+.pageItem:focus,
+.pageItem:hover {
+  color: var(--color-orange);
+  background-color: var(--color-lightgray);
+}
+
+.pageItem.active {
+  color: var(--color-white);
+  background-color: var(--color-dark-gray);
+}
